@@ -1,4 +1,5 @@
-import { requireNativeComponent, ViewPropTypes } from 'react-native';
+import { requireNativeComponent } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types'
 import PropTypes from 'prop-types';
 
 import {NativeModules, NativeEventEmitter, Platform} from 'react-native';
